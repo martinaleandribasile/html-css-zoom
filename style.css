@@ -96,13 +96,14 @@ footer {
 }
 
 .icon>div {
-    margin-right: 30px;
+    margin-right: 40px;
     text-align: center;
 }
 
 .icon>div>i {
     font-size: xx-large;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .left {
@@ -131,4 +132,18 @@ footer {
 
 .fa-share-from-square {
     color: green;
+}
+
+#arrow {
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    left: 150%;
+}
+
+#arrowr {
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    right: 150%;
 }
