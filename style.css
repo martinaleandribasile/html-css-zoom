@@ -48,12 +48,12 @@ main {
 
 }
 
-.speaker>img {
+.person>img {
     width: 100%;
 }
 
 .person {
-    margin: 5px;
+    margin: 3px 5px;
     width: calc(100% / 7 - 10px);
     flex-shrink: 0;
     position: relative;
